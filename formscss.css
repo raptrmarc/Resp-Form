@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: white;
+}
+
+code {
+	background: #FFD1CF;
+	display: block;
+	padding: 0px 0px 0px 5px;
+}
+
+h1 {
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;
+	font-size: 39px;
+	color: #7F4441;
+	top: 22px;
+	position: relative;
+}
+
+h2 {
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;
+	color: #7F4441;
+	position: relative;
+}
+
+label {
+	display: none;
+}
+
+.box {
+	padding: 0.5em;
+	font-family: 'Nunito', sans-serif;
+}
+
+input {
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+	padding: 0.3em;
+}
+
+#swag {
+	width: 30%;
+	margin-left: 8px;
+	background-color: #7F4441;
+	color: beige;
+}
+
+@media all and (min-width: 600px) and (max-width:1024px) {
+	label {
+		display: block;
+		font-family: 'Nunito', sans-serif;
+		font-weight: bold;
+	}
+	div {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media all and (min-width: 1024px) {
+	label {
+		font-family: 'Nunito', sans-serif;
+		font-weight: bold;
+		display: inline-block;
+		width: 80px;
+	}
+	input {
+		font-family: 'Nunito', sans-serif;
+		width: 50%;
+	}
+	div {
+		width: 50%;
+		float: left;
+	}
+	#swag {
+		font-family: 'Nunito', sans-serif;
+		margin: 0 0 0 91;
+		width: 100px;
+	}
+}
